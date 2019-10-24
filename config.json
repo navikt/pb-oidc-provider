@@ -1,0 +1,21 @@
+{
+  "idp_name": "http://localhost-issuer",
+  "port": 9000,
+  "client_config": [
+    {
+      "client_id": "aud-localhost",
+      "client_secret": "localhost-secret",
+      "redirect_uris": [
+        "http://localhost:3000",
+        "http://localhost:3000/",
+        "http://localhost:5000",
+        "http://localhost:5000/"
+      ]
+    }
+  ],
+  "claim_mapping": {
+    "openid": [ "sub" ],
+    "email": [ "email", "email_verified" ],
+    "profile": [ "name", "nickname" ]
+  }
+}

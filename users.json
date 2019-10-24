@@ -1,0 +1,10 @@
+[
+  {
+    "id": "12345",
+    "email": "bruker@nav.no",
+    "email_verified": true,
+    "name": "Kari Nordmann",
+    "nickname": "kari",
+    "password": "passord123"
+  }
+]
